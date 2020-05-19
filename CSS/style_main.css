@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+a {
+    color: #00909E;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 5px solid #142850;
+    margin: 0px;
+    padding: 20px;
+}
+#logo {
+    padding-right: 10px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid ul {
+    color: black;
+    border-right: 5px solid #142850;
+    width: 105px;
+    margin: 0;
+    padding: 20px;
+}
+#article {
+    padding-left: 25px;
+}
+@media (max-width: 700px) {
+    #grid {
+        display: block;
+    }
+    #grid ul {
+        border-right: none;
+    }
+}
